@@ -1,0 +1,21 @@
+Package: googledriveplus
+Title: An Extension of `googledrive` for the Reed College mLab
+Version: 0.0.1
+Authors@R: 
+    person(given = "Simon",
+           family = "Couch",
+           role = c("aut", "cre"),
+           email = "simonpatrickcouch@gmail.com")
+Description: This is a quick extension to Jenny Bryan’s googledrive package to 
+  allow for grabbing data from Google Drive and returning it as an R object 
+  without saving the object to the user’s local file system. This is meant 
+  to allow for several people to work with the same data without having to 
+  deal with downloading files, changing filepaths, and getwd() fussiness.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+    googledrive,
+    readr,
+    RCurl
